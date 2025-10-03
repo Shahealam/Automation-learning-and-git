@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-03T18:07:32 IST" name="Default suite" finished-at="2025-10-03T18:07:52 IST" duration-ms="20097">
+  <suite started-at="2025-10-03T22:51:58 IST" name="Default suite" finished-at="2025-10-03T22:52:07 IST" duration-ms="8938">
     <groups>
     </groups>
-    <test started-at="2025-10-03T18:07:32 IST" name="Default test" finished-at="2025-10-03T18:07:52 IST" duration-ms="20097">
-      <class name="automation.Testcases">
-        <test-method is-config="true" signature="setup()[pri:0, instance:automation.Testcases@4c309d4d]" started-at="2025-10-03T18:07:32 IST" name="setup" finished-at="2025-10-03T18:07:51 IST" duration-ms="19348" status="PASS">
+    <test started-at="2025-10-03T22:51:58 IST" name="Default test" finished-at="2025-10-03T22:52:07 IST" duration-ms="8938">
+      <class name="automation.Home_page">
+        <test-method is-config="true" signature="setup()[pri:0, instance:automation.Home_page@38102d01]" started-at="2025-10-03T22:51:58 IST" name="setup" finished-at="2025-10-03T22:52:01 IST" duration-ms="3052" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="automateWebTable()[pri:1, instance:automation.Testcases@4c309d4d]" started-at="2025-10-03T18:07:52 IST" name="automateWebTable" finished-at="2025-10-03T18:07:52 IST" duration-ms="645" status="PASS">
+        <test-method signature="check()[pri:0, instance:automation.Home_page@38102d01]" started-at="2025-10-03T22:52:01 IST" name="check" finished-at="2025-10-03T22:52:06 IST" duration-ms="5773" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- automateWebTable -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:automation.Testcases@4c309d4d]" started-at="2025-10-03T18:07:52 IST" name="teardown" finished-at="2025-10-03T18:07:52 IST" duration-ms="76" status="PASS">
+        </test-method> <!-- check -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:automation.Home_page@38102d01]" started-at="2025-10-03T22:52:06 IST" name="teardown" finished-at="2025-10-03T22:52:07 IST" duration-ms="89" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- automation.Testcases -->
+      </class> <!-- automation.Home_page -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
