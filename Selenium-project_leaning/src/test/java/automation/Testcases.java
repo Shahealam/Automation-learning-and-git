@@ -56,3 +56,29 @@ public class Testcases {
 	
 	
 }
+
+
+/*
+ * 
+ * @Test(priority=1) public void automateWebTable() { // Capture all rows of the
+ * table List<WebElement> rows =
+ * driver.findElements(By.xpath("//div[@class='rt-tbody']/div"));
+ * 
+ * // Loop through each row and print the cell data for (WebElement row : rows)
+ * { List<WebElement> cells = row.findElements(By.xpath(".//div")); for
+ * (WebElement cell : cells) { System.out.print(cell.getText() + "\t"); }
+ * System.out.println(); // Print a new line for each row } }
+ * 
+ * 
+ * 
+ * 
+ * 
+ * @AfterTest public void teardown() {
+ * 
+ * if(driver!=null) { driver.quit(); } }
+ * 
+ * 
+ * 
+ * 
+ * }
+ */
