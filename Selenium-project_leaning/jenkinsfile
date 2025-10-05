@@ -1,0 +1,25 @@
+pipeline {
+    agent any
+    tools {
+        maven 'Maven'   // Jenkins → Global Tool Config में जो नाम दिया है वही लिखना
+    }
+    stages {
+        stage('Checkout') {
+            steps {
+                git 'https://github.com/Shahealam/Automation-learning-and-git'
+            }
+        }
+
+        stage('Build & Test') {
+            steps {
+                sh 'mvn clean test'
+            }
+        }
+    }
+    post {
+        always {
+            // JUnit report publish
+            junit '**/target/surefire-reports/*.xml'
+        }
+    }
+}
